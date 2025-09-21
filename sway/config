@@ -47,7 +47,7 @@ exec_always test -f ~/.Xresources && xrdb -merge ~/.Xresources
 # gtk setup with themes
 set $gnome-schema org.gnome.desktop.interface
 exec_always {
-    gsettings set $gnome-schema gtk-theme 'catppuccin-mocha-lavender'
+    gsettings set $gnome-schema gtk-theme 'catppuccin-mocha-lavender-standard+default'
     gsettings set $gnome-schema icon-theme 'Papirus-Dark'
     gsettings set $gnome-schema cursor-theme 'Paper'
     gsettings set $gnome-schema font-name 'Sans 10'
