@@ -5,7 +5,7 @@
     // Choose the ordeswayf the modules
     "modules-left": ["sway/workspaces", "sway/scratchpad"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "idle_inhibitor", "backlight", "battery", "sway/language", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio","network", "idle_inhibitor", "backlight", "battery", "sway/language", "clock", "tray", "custom/lock", "custom/power"],
     
     "sway/workspaces": {
          "disable-scroll": true,
@@ -29,6 +29,15 @@
 	"tooltip": true,
 	"tooltip-format": "{app}: {title}"
     }, 
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) 󰈁",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
     "tray": {
         "icon-size": 21,
         "spacing": 10
