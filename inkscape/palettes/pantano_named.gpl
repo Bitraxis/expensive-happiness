@@ -1,0 +1,70 @@
+GIMP Palette
+Name: PANTANO Named
+Columns: 2
+#
+ 42  38  35	Black #2A2623
+ 60  54  37	Black 2 #3C3625
+ 17  17  17	Black 2 2X #111111
+ 37  44  38	Black 3 #252C26
+ 17  17  20	Black 3 2X #111114
+ 56  45  36	Black 4 #382D24
+ 15  15  15	Black 4 2X #0F0F0F
+ 68  49  53	Black 5 #443135
+ 17  12  15	Black 5 2X #110C0F
+ 17  28  36	Black 6 #111C24
+  7  12  15	Black 6 2X #070C0F
+ 54  53  52	Black 7 #363534
+ 51  48  43	Black 7 2X #33302B
+  0  24 168	Blue 072 #0018A8
+224 225 221	Cool Gray 1 #E0E1DD
+ 97  99 101	Cool Gray 10 #616365
+ 77  79  83	Cool Gray 11 #4D4F53
+213 214 210	Cool Gray 2 #D5D6D2
+201 202 200	Cool Gray 3 #C9CAC8
+188 189 188	Cool Gray 4 #BCBDBC
+178 180 179	Cool Gray 5 #B2B4B3
+173 175 175	Cool Gray 6 #ADAFAF
+154 155 156	Cool Gray 7 #9A9B9C
+139 141 142	Cool Gray 8 #8B8D8E
+116 118 120	Cool Gray 9 #747678
+  0 173 131	Green #00AD83
+  0 150 119	Green 2X #009677
+ 32  33  33	Hexachrome Black #202121
+  0 143 208	Hexachrome Cyan #008FD0
+  0 176  74	Hexachrome Green #00B04A
+222   0 144	Hexachrome Magenta #DE0090
+255 124   0	Hexachrome Orange #FF7C00
+255 224   0	Hexachrome Yellow #FFE000
+255  88   0	Orange 021 #FF5800
+ 30  30  30	Process Black #1E1E1E
+  0 136 206	Process Blue #0088CE
+  0 119 191	Process Blue 2X #0077BF
+  0 159 218	Process Cyan #009FDA
+209   0 116	Process Magenta #D10074
+249 227   0	Process Yellow #F9E300
+182  52 187	Purple #B634BB
+170   0 150	Purple 2X #AA0096
+237  41  57	Red 032 #ED2939
+  0  35 149	Reflex Blue #002395
+ 28   0 122	Reflex Blue 2X #1C007A
+224  17 157	Rhodamine Red #E0119D
+209   5 114	Rhodamine Red 2X #D10572
+202   0  93	Rubine Red #CA005D
+198   0  61	Rubine Red 2X #C6003D
+ 75   8 161	Violet #4B08A1
+ 89   0 142	Violet 2X #59008E
+224 222 216	Warm Gray 1 #E0DED8
+118 106  98	Warm Gray 10 #766A62
+103  92  83	Warm Gray 11 #675C53
+213 210 202	Warm Gray 2 #D5D2CA
+199 194 186	Warm Gray 3 #C7C2BA
+183 177 169	Warm Gray 4 #B7B1A9
+174 167 159	Warm Gray 5 #AEA79F
+165 157 149	Warm Gray 6 #A59D95
+152 143 134	Warm Gray 7 #988F86
+139 129 120	Warm Gray 8 #8B8178
+130 120 111	Warm Gray 9 #82786F
+247  64  58	Warm Red #F7403A
+224  58   0	Warm Red 2X #E03A00
+254 223   0	Yellow #FEDF00
+255 213   0	Yellow 012 #FFD500

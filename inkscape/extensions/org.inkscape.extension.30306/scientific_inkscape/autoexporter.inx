@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Autoexporter</name>
+    <id>burghoff.autoexporter</id>
+    <param name="tab" type="notebook">        
+        <page name="scaling" gui-text="Options">
+        <label>Launches the Autoexporter, a background program that watches a directory for changes to any SVG and then writes exports in the selected formats.</label>
+        <label>If you encounter a security prompt, please be sure to allow the program to run.</label>
+        <label appearance="header">Formats to export</label>
+        <param name="usepdf" type="bool" gui-text="PDF"
+         gui-description="Filters and gradients will be rasterized.">true</param>   
+        <param name="usepng" type="bool" gui-text="PNG">false</param>    
+        <param name="useemf" type="bool" gui-text="EMF"
+         gui-description="Recommended for older versions of Microsoft Office that do not support SVG.">false</param>   
+        <param name="useeps" type="bool" gui-text="EPS">false</param>  
+        <param name="usepsvg" type="bool" gui-text="Plain SVG"
+          gui-description="Plain SVG that has been optimized for compatibility. &#13;Recommended for newer versions of Microsoft Office that support SVG.">false</param> 
+        
+        <label appearance="header">What to export</label>
+        <param name="exportwhat" type="optiongroup" appearance="combo"
+                gui-text="​"
+                gui-description="Autoexport runs in the background watching for changes to a directory. Single export is similar to Save a Copy.">
+                   <option value="1">Autoexport to locations below</option>
+                   <option value="2">Autoexport to this document's location</option>
+                   <option value="3">Single export now</option>
+                </param>
+        <param type="path" name="watchdir" gui-text="Watch directory" mode="folder"/>
+        <param type="path" name="writedir" gui-text="Write directory" mode="folder"/>
+        
+        <spacer/>
+        <label>Scientific Inkscape v1.4.23</label>
+        <label appearance="url">https://github.com/burghoff/Scientific-Inkscape</label>
+        <label>David Burghoff, University of Texas at Austin</label>
+        </page>
+    
+        <page name="advanced" gui-text="Advanced">
+        
+        <label appearance="header">Rasterization DPI</label>
+        <label>Resolution for PNG output and objects converted to raster formats</label>
+        <param name="dpi" type="float" precision="0" min="1" max="9999" gui-text="Rasterization DPI"
+        gui-description="Certain objects may be rasterized, including filters in PDFs and anything marked for it using the Rasterizer tab.">600</param>
+
+        <label appearance="header">Embedded image handling</label> 
+        <label>Cropping and resampling of embedded images can reduce output file sizes.</label>     
+        <param name="imagemode2" type="bool" gui-text="Crop and resample images?"
+        gui-description="Resample embedded Images at the rasterization DPI if doing so makes the file size smaller. This avoids unnecessarily large files created by high-DPI images.">true</param> 
+
+        <label appearance="header">Other options</label>
+        <param name="texttopath" type="bool" gui-text="Convert text to paths"
+        gui-description="Conversion of text to paths can help guarantee that it looks identical on all platforms.">false</param> 
+        <param name="thinline" type="bool" gui-text="Prevent thin line enhancement"
+        gui-description="Some PDF readers thicken lines at certain zooms; this option makes your lines impervious to this feature.">true</param>  
+        <param name="stroketopath" type="bool" gui-text="Convert all strokes to paths"
+        gui-description="Most PDF readers draw stroked lines differently than equivalent filled paths. By converting strokes to paths, this can be prevented. (This uses Inkscape's Stroke to Path, which has some unresolved bugs. Double-check the final output.)">false</param>
+        <param name="backingrect" type="bool" gui-text="Add transparent backing rectangle"
+        gui-description="A transparent rectangle behind the image makes it easier to select in certain programs">true</param> 
+        <param name="margin" type="float" precision="1" min="-9999" max="9999" gui-text="Extra margin (mm)"
+        gui-description="Adds a margin to the export. A small margin can ensure that edges are not clipped off.">0.3</param>
+        
+         <label appearance="header">PDF options</label>
+         <param name="latexpdf" type="bool" gui-text="Omit text in PDF and create LaTeX file"
+         gui-description="Equivalent to same option when saving as PDF">false</param> 
+         
+        <spacer/>
+        <label>Scientific Inkscape v1.4.23</label>
+        <label appearance="url">https://github.com/burghoff/Scientific-Inkscape</label>
+        <label>David Burghoff, University of Texas at Austin</label>
+        </page>
+        
+        <page name="rasterizer" gui-text="Rasterizer">
+        <label appearance="header">Object rasterizer</label>   
+        <label>By running the extension with this tab selected, selected objects can be marked for rasterization (conversion to bitmap). They will remain as normal objects in your SVG, but the Autoexporter will rasterize them during export.</label>
+        <label> </label>
+        <label>This can be useful for certain objects that make the export large and sluggish, such as paths that contain tens of thousands of nodes.</label>           
+        <label> </label>
+        <param name="rasterizermode" type="optiongroup" appearance="combo"
+                gui-text="Mark selected objects to be">
+                   <option value="1">Rasterized as PNG</option>
+                   <option value="2">Rasterized as JPG</option>
+                   <option value="3">Converted to path</option>
+                   <option value="4">Left unchanged</option>
+                </param>
+        <spacer/>
+        <label>Scientific Inkscape v1.4.23</label>
+        <label appearance="url">https://github.com/burghoff/Scientific-Inkscape</label>
+        <label>David Burghoff, University of Texas at Austin</label>
+        </page>
+    </param>
+    <effect needs-live-preview="false">
+        <object-type>text</object-type>
+        <effects-menu>
+            <submenu name="Scientific"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">autoexporter.py</command>
+    </script>
+</inkscape-extension>

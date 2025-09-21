@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<keys name="User Shortcuts">
+  <bind gaction="win.dialog-open('FillStroke')" keys="&lt;Primary&gt;&lt;Shift&gt;f,&lt;Primary&gt;F9,&lt;Primary&gt;F10,&lt;Primary&gt;&lt;Shift&gt;F10,F6" />
+  <bind gaction="win.dialog-open('Objects')" keys="&lt;Primary&gt;&lt;Shift&gt;l,F7" />
+  <bind gaction="win.layer-new" keys="&lt;Primary&gt;l" />
+  <bind gaction="win.tool-switch('Calligraphic')" keys="c,&lt;Primary&gt;F6,b" />
+  <modifier action="canvas-pan-y" modifiers="Shift" />
+  <modifier action="canvas-pan-x" modifiers="Ctrl" />
+  <modifier action="canvas-zoom" modifiers="Alt" />
+  <modifier action="canvas-rotate" disabled="true" />
+  <modifier action="move-confine" modifiers="Shift" />
+  <modifier action="move-snapping" modifiers="Ctrl" />
+  <modifier action="trans-confine" modifiers="Shift" />
+  <modifier action="trans-increment" disabled="true" />
+  <modifier action="trans-off-center" modifiers="Alt" />
+  <modifier action="trans-snapping" modifiers="Ctrl" />
+  <modifier action="select-cycle" disabled="true" />
+</keys>

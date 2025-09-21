@@ -1,0 +1,260 @@
+GIMP Palette
+Name: Dream
+Columns: 14
+#
+ 22  26  28	Unknown
+ 26  26  28	Unknown
+ 28  32  28	Unknown
+ 32  33  39	Unknown
+ 34  34  28	Unknown
+ 34  38  33	Unknown
+ 38  34  44	Unknown
+ 38  39  45	Unknown
+ 38  42  34	Unknown
+ 42  42  42	Unknown
+ 42  47  40	Unknown
+ 43  41  52	Unknown
+ 46  48  54	Unknown
+ 46  50  41	Unknown
+ 49  33  28	Unknown
+ 49  54  48	Unknown
+ 50  38  36	Unknown
+ 50  50  60	Unknown
+ 53  56  62	Unknown
+ 54  50  61	Unknown
+ 54  57  48	Unknown
+ 56  37  35	Unknown
+ 57  62  57	Unknown
+ 58  48  48	Unknown
+ 58  58  51	Unknown
+ 58  58  68	Unknown
+ 58  63  70	Unknown
+ 61  42  37	Unknown
+ 62  38  36	Unknown
+ 62  64  55	Unknown
+ 62  65  71	Unknown
+ 62  70  68	Unknown
+ 62  70  77	Unknown
+ 64  47  44	Unknown
+ 66  42  39	Unknown
+ 66  66  58	Unknown
+ 67  66  74	Unknown
+ 67  73  77	Unknown
+ 68  71  65	Unknown
+ 69  56  52	Unknown
+ 70  78  80	Unknown
+ 72  47  44	Unknown
+ 72  82  76	Unknown
+ 74  54  51	Unknown
+ 74  65  66	Unknown
+ 74  83  86	Unknown
+ 75  73  68	Unknown
+ 78  73  78	Unknown
+ 78  78  75	Unknown
+ 78  78  84	Unknown
+ 78  83  76	Unknown
+ 78  85  88	Unknown
+ 78  90  83	Unknown
+ 78  91  92	Unknown
+ 79  50  45	Unknown
+ 80  56  52	Unknown
+ 82  70  60	Unknown
+ 82  99 100	Unknown
+ 83  92  95	Unknown
+ 84  84  82	Unknown
+ 84  90  84	Unknown
+ 85  85  93	Unknown
+ 86 106 101	Unknown
+ 86  78  82	Unknown
+ 87  57  52	Unknown
+ 87  98  92	Unknown
+ 88 100 101	Unknown
+ 88  63  59	Unknown
+ 90 108 106	Unknown
+ 90  85  83	Unknown
+ 90  86  95	Unknown
+ 91  92  98	Unknown
+ 94 115 108	Unknown
+ 94  58  52	Unknown
+ 94  63  58	Unknown
+ 94  70  64	Unknown
+ 94  94 108	Unknown
+ 96 100 110	Unknown
+ 96 108 107	Unknown
+ 96  99  96	Unknown
+ 98 109 116	Unknown
+ 98 116 113	Unknown
+ 98  63  60	Unknown
+ 98  86  76	Unknown
+ 98  94 109	Unknown
+ 98  94  94	Unknown
+100  72  66	Unknown
+101 122 117	Unknown
+102 102 115	Unknown
+102  78  71	Unknown
+103 101  94	Unknown
+103  94  89	Unknown
+104 108 103	Unknown
+104 108 119	Unknown
+104 116 118	Unknown
+105 116 106	Unknown
+105  84  73	Unknown
+106 124 121	Unknown
+107  73  67	Unknown
+108  78  73	Unknown
+110 130 125	Unknown
+111 101  91	Unknown
+111 110 125	Unknown
+111  84  78	Unknown
+112 108  99	Unknown
+112 116 111	Unknown
+112 116 127	Unknown
+112 124 121	Unknown
+112  92  83	Unknown
+114 124 132	Unknown
+114 131 130	Unknown
+114 138 132	Unknown
+114  74  68	Unknown
+116  78  68	Unknown
+118 110 100	Unknown
+118 116 108	Unknown
+118 117 131	Unknown
+118 124 118	Unknown
+118 124 132	Unknown
+118  99  84	Unknown
+120 130 120	Unknown
+120 132 133	Unknown
+120  84  76	Unknown
+120  92  84	Unknown
+122 110 100	Unknown
+122 142 139	Unknown
+123 124 117	Unknown
+123 125 135	Unknown
+123 138 135	Unknown
+124 116 106	Unknown
+124 118 131	Unknown
+125  99  88	Unknown
+126 109 119	Unknown
+126 131 120	Unknown
+126 132 138	Unknown
+126 142 137	Unknown
+127  88  78	Unknown
+127  94  87	Unknown
+130 110 121	Unknown
+131 132 125	Unknown
+132 100  94	Unknown
+132 117 107	Unknown
+132 117 126	Unknown
+132 124 113	Unknown
+132 124 136	Unknown
+132 132 142	Unknown
+132 143 137	Unknown
+133 109  95	Unknown
+133 138 135	Unknown
+134 143 148	Unknown
+134 150 146	Unknown
+135 138 148	Unknown
+138 102 100	Unknown
+138 131 120	Unknown
+138 132 143	Unknown
+139 108  97	Unknown
+139 117 107	Unknown
+139 125 135	Unknown
+140 118 123	Unknown
+140 124 115	Unknown
+140 144 136	Unknown
+140 144 151	Unknown
+141 151 149	Unknown
+143 132 121	Unknown
+143 138 127	Unknown
+144 133 143	Unknown
+145 138 148	Unknown
+146 158 154	Unknown
+147 117 105	Unknown
+147 123 115	Unknown
+147 126 137	Unknown
+147 152 145	Unknown
+148 144 134	Unknown
+148 144 154	Unknown
+148 152 158	Unknown
+150 134 124	Unknown
+150 134 147	Unknown
+150 138 150	Unknown
+150 159 156	Unknown
+150 166 164	Unknown
+151 138 130	Unknown
+155 144 137	Unknown
+155 144 157	Unknown
+155 152 143	Unknown
+155 152 163	Unknown
+156 125 107	Unknown
+156 160 153	Unknown
+156 160 164	Unknown
+158 130 115	Unknown
+158 134 124	Unknown
+159 166 156	Unknown
+160 168 166	Unknown
+162 133 115	Unknown
+162 146 140	Unknown
+162 146 163	Unknown
+162 152 164	Unknown
+162 154 146	Unknown
+162 160 150	Unknown
+162 161 168	Unknown
+165 175 171	Unknown
+166 138 122	Unknown
+166 154 148	Unknown
+166 154 167	Unknown
+166 161 154	Unknown
+167 168 159	Unknown
+167 169 173	Unknown
+168 143 128	Unknown
+168 161 172	Unknown
+170 176 172	Unknown
+173 182 172	Unknown
+174 162 172	Unknown
+175 169 162	Unknown
+175 177 168	Unknown
+175 177 180	Unknown
+176 162 156	Unknown
+176 169 179	Unknown
+177 184 181	Unknown
+178 183 172	Unknown
+182 170 175	Unknown
+182 190 184	Unknown
+183 177 169	Unknown
+183 185 178	Unknown
+183 185 188	Unknown
+184 176 186	Unknown
+188 192 189	Unknown
+190 178 188	Unknown
+190 185 179	Unknown
+190 185 193	Unknown
+190 198 190	Unknown
+194 186 188	Unknown
+194 202 195	Unknown
+195 193 188	Unknown
+195 193 196	Unknown
+195 198 195	Unknown
+198 202 199	Unknown
+202 194 188	Unknown
+203 198 201	Unknown
+203 204 196	Unknown
+203 205 204	Unknown
+205 210 205	Unknown
+210 205 207	Unknown
+211 213 210	Unknown
+213 219 212	Unknown
+218 214 215	Unknown
+218 220 217	Unknown
+218 226 220	Unknown
+223 221 220	Unknown
+225 226 223	Unknown
+226 230 226	Unknown
+232 232 231	Unknown
+234 238 236	Unknown
+239 237 237	Unknown
+242 242 242	Unknown
+246 246 244	Unknown
+250 250 250	Unknown
+254 254 252	Unknown

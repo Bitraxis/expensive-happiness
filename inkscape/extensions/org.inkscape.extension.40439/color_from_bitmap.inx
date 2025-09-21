@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>From bitmap</name>
+    <id>org.inkscape.color.from_bitmap</id>
+    <param name="tab" type="notebook">
+        <page name="Options" gui-text="Options">
+            <param name="erode" type="int" min="-1000" max="1000"
+                gui-text="Sensitivity">0</param>
+            <param name="fill" type="optiongroup" appearance="combo"
+                        gui-text="Fill color">
+               <option value="unchanged">No change</option>
+               <option value="none">No color</option>
+               <option value="average">Average</option>
+            </param>
+            <param name="stroke" type="optiongroup" appearance="combo"
+                        gui-text="Stroke color">
+               <option value="unchanged">No change</option>
+               <option value="none">No color</option>
+               <option value="average">Average</option>
+            </param>
+
+            <param name="scale_x_min" type="float" min="-100." max="100."
+                gui-text="scale x min">1.0</param>
+            <param name="scale_x_max" type="float" min="-100." max="100."
+                gui-text="scale x max">1.0</param>
+            <param name="scale_y_min" type="float" min="-100." max="100."
+                gui-text="scale y min">1.0</param>
+            <param name="scale_y_max" type="float" min="-100." max="100."
+                gui-text="scale y max">1.0</param>
+
+            <param name="intensity" type="optiongroup" appearance="combo"
+                        gui-text="Intensity compute">
+               <option value="sRGB">sRGB</option>
+               <option value="linear">linear</option>
+            </param>
+        </page>
+        <page name="Help" gui-text="Help">
+            <label xml:space="preserve">Copy color from background.</label>
+			<param name="show_debug" type="bool"
+                gui-text="debug">false</param>
+			<param name="auto_select" type="bool"
+                gui-text="auto select all">false</param>
+        </page>
+    </param>
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Color"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">color_from_bitmap.py</command>
+    </script>
+</inkscape-extension>

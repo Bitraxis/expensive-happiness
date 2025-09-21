@@ -1,0 +1,1 @@
+* make stroke width user-configurable instead of auto-determining it for them

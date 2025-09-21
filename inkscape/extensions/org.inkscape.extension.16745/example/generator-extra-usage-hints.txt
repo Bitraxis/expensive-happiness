@@ -1,0 +1,6 @@
+Some additional hints:
+
+- link any image that you want to use as a placeholder (don't embed)
+- put the replacement images into the same directory as the placeholder, so you only need to replace the name
+ (didn't work for full file paths, for some reason sed complained, even with backslashes and quotes (also without))
+- the CSV file must end with an empty line
